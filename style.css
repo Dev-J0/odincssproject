@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+.headerlogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: #1F2937 ;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+.containertop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 10px 20px 30px;
+}
+
+#mainpicture {
+   height: 250px;
+   margin-left: 70%;
+   
+}
+
+.infoleft {
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 30px 20% 25px 20%;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+#picture1,
+#picture2,
+#picture3,
+#picture4 {   
+    width:150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid white;
+}   
+
+#randominfo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    display: flex;
+    padding-left: 15%;
+}
+
+#logolink {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 20%;
+}
+.piclink {
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+
+#button1 {
+    text-decoration: none;
+    background: #3882F6;
+    color: white;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 6px ;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+
+.containerquote {
+    height: 400px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
+    padding-left: 22%;
+    padding-right: 25%;
+    padding-top: 110px;
+    text-align: right;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 80px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#button2 {
+    height: 2rem;
+    width: 7rem;
+    background: #3882F6;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+.copyright {
+    height: 50px;
+    background-color: #1F2937;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
