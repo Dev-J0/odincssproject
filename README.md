@@ -1,4 +1,4 @@
 # odincssproject
 
 
-https://d0bsidian.github.io/odincssproject/
+https://dev-j0.github.io/odincssproject/
